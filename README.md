@@ -31,16 +31,16 @@ This repository hosts the analysis framework for validating the migration of a M
 
 ```
 .
-├── data/                        # Preprocessed & annotated EEG FIF files (not tracked)
 ├── config/                      # Config files (paths, offsets, params)
-├── matlab_runner/               # MATLAB scripts to run blinker & export CSVs
-├── python_runner/               # Python scripts to run pyblinker & export CSVs
-├── comparator/                  # Matching & metrics computation
-│   ├── metrics/                 # Precision, recall, F1, Δtime, TOST
-│   ├── plots/                   # Visualizations (F1 bars, timing histograms, Bland–Altman)
-│   └── report/                  # Aggregated outputs
-├── epoch_mode/                  # Pyblinker experiments with epochs (no-drop, random-drop)
-└── README.md                    # Project documentation
+├── src/                         # All source code lives here
+│   ├── matlab_runner/           # MATLAB scripts to run blinker & export CSVs
+│   ├── python_runner/           # Python scripts to run pyblinker & export CSVs
+│   ├── comparator/              # Matching & metrics computation
+│   │   ├── metrics/             # Precision, recall, F1, Δtime, TOST
+│   │   └── report/              # Aggregated outputs (tables, CSVs)
+│   └── epoch_mode/              # Pyblinker experiments (no-drop, random-drop)
+├── README.md                    # Project documentation
+
 ```
 
 ---
