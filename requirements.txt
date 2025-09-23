@@ -1,0 +1,15 @@
+# Core scientific computing
+numpy >2.0.0
+pandas
+
+# Visualization
+matplotlib
+seaborn
+tqdm
+
+# Neuroimaging / signal analysis
+mne
+
+# Utilities
+gdown
+git+https://github.com/pyresearchs/pyblinker.git#egg=pyblinker
