@@ -12,6 +12,6 @@ mne
 
 # Utilities
 gdown
-git+https://github.com/pyresearchs/pyblinker.git
+pyblinker @ git+https://github.com/pyresearchs/pyblinker.git@main
 
 
