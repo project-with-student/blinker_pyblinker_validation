@@ -1,0 +1,3 @@
+# Ignore downloaded test data
+
+__pycache__/
