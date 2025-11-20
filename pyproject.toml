@@ -1,22 +1,14 @@
 [build-system]
-requires = ["setuptools>=61", "wheel"]
+requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "blinker_pyblinker_validation"
-version = "0.0.1"
-requires-python = ">=3.10"
-authors = [{email = "balandongiv@gmail.com", name = "rpb"}]
-description = "."
+name = "blinker-pyblinker-validation"
+version = "0.1.17"
+description = "Utilities for validating PyBlinker outputs against MATLAB Blinker results."
 readme = "README.md"
-license = { text = "BSD-3-Clause" }
-dependencies = [
-    "mne",
-    "pandas",
-    "tqdm",
-    "gdown",
-    "seaborn",
-]
+requires-python = ">=3.10"
+dependencies = ["pyyaml>=6.0"]
 
 [tool.setuptools.packages.find]
-include = ["pyblinker*"]
+where = ["src"]
